@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="cd17-a898-ee5f-20f3" name="Neapolitan Army" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="44bf-5edb-0de1-57df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="05f7-2d37-ff12-ad72" name="Neapolitan Army 1812" hidden="false"/>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="e72e-dd50-ec96-25c5" name="Infantry Brigade" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="05f7-2d37-ff12-ad72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea10-2977-1a36-c09f" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e0b-982f-0302-999d" name="Light Infantry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed3-e3f5-25f8-e89a" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6d18-64a6-763c-c063" name="Standard Battalion" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="b8e1-6193-537f-52cd" name="Light Infantry Battalion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="0148-caad-b2be-3b11" name="Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="d947-be6f-47b3-2e66" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="6d29-809e-d1a4-f751" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                    <infoLink id="4123-7d43-5f07-1c01" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4380-1bb3-5f86-c507" name="Upgraded Battalions" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="78d5-a438-9468-754c" name="Veteran Light Infantry Battalion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="e147-6a46-bf8c-8fc4" name="Veteran Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="37b3-b324-6b25-279e" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="29.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5d85-2e9b-4465-75fd" name="Upgraded Light Infantry Battalion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="ebca-c82c-3008-e8ab" name="Upgraded Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="18d3-c947-9b02-e4a7" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="3b60-e40e-feeb-f6f0" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                    <infoLink id="f825-40f2-2ed6-a8c1" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="23.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fc90-2acc-8dbd-2e6b" name="Small Veteran Upgraded Light Infantry Battalion" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="9613-e7ed-9fe2-5d68" name="Small Veteran Upgraded Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="1fbc-3c2c-5302-0ede" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="24.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f926-1d7f-e301-a128" name="Small Veteran Light Infantry Battallion" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="5355-4a4b-4d49-5c6f" name="Small Veteran Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="17a0-c90e-1b9d-f1db" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="21.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="db46-77e6-ae81-3152" name="Small Upgraded Light Infantry Battallion" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="4e1a-d370-672c-8603" name="Small Upgraded Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8c0a-a816-a4e0-61b7" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                    <infoLink id="18a8-b426-e340-b247" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="20b3-d8b9-55e6-dde9" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2bfd-0f96-5175-c687" name="Small Light Infantry Battallion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="bad2-f832-0fd1-a3c5" name="Small Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9088-bf19-699e-5b49" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                    <infoLink id="d05f-a07a-9360-1f04" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="ed7b-a9f4-b688-0677" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="12.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="91e6-6773-dedd-99dd" name="Large Veteran Upgraded Light infantry Battalion" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="8e5b-358f-80fc-a9a4" name="Large Veteran Upgraded Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="1457-4f06-3fc0-a167" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="40.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9909-bd87-4a10-e048" name="Large Veteran Light Infantry Battalion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="e8f5-edcd-0196-9939" name="Large Veteran Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="fd72-3694-baf2-b09d" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="37.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d535-7f55-89ef-da29" name="Large Uprgraded Light Infantry Battalion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="e341-d94c-bda9-8620" name="Large Uprgraded Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0b9b-2920-1281-a032" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="bd4d-7434-a78a-a8d5" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                    <infoLink id="9dd3-6808-7bd3-bbd9" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="31.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b5a8-ceb9-fb5e-d8d1" name="Large Light Infantry Battalion" hidden="false" collective="false" import="true" type="model">
+                  <profiles>
+                    <profile id="df99-c7ac-e403-73a4" name="Large Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="d875-58fd-4e66-71ae" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="193a-bbff-c68d-4269" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+                    <infoLink id="3ef2-3e8c-48c7-7de2" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="28.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3c29-824c-529f-9e35" name="Line Infantry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="e72e-dd50-ec96-25c5" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e519-bc46-27c1-c4be" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="98ae-6a8a-e977-f803" name="Standard Battalion" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="2ac3-bd2f-924a-114c" name="Infantry Battalion" publicationId="f198-9405-5aea-89f1" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="0d80-a9d7-17eb-b8bc" name="Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8119-7572-794f-462f" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="680d-ed45-7006-79a6" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="89b0-d0eb-1ee0-b52e" name="Upgraded Battalions" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="1511-8041-fe5e-a4b2" name="Veteran Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="9c3b-fcb0-ef04-311e" name="Veteran Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="29.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ce67-6426-8e76-cb86" name="Uprgraded Veteran Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="8943-9dc9-614d-3017" name="Uprgraded Veteran Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="9210-eddd-125c-2c9a" name="Upgraded Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="9dee-7db1-9131-3091" name="Upgraded Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="f5a8-e187-61a9-5835" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="00c7-28c3-384f-c482" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="23.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4a4c-906e-0546-5b68" name="Small Veteran Upgraded Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="de6c-72fa-c373-b3d0" name="Small Veteran Upgraded Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="24.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a797-1cef-8808-7663" name="Small Veteran Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="1893-3a89-414c-dd65" name="Small Veteran Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="21.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9592-392d-7f73-0069" name="Small Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="bd6e-3685-48fe-03f2" name="Small Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="b241-90c0-f250-259c" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="84c0-6635-dfe3-83be" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="12.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="dabc-f826-0017-bf0d" name="Large Veteran Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="2f21-03b7-3714-8705" name="Large Veteran Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="37.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b2f3-6ec2-5173-61c2" name="Large Upgraded Veteran Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="eb43-b2ff-d294-aec7" name="Large Upgraded Veteran Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="40.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e296-fa95-e73c-e5ad" name="Large Upgraded Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="d43c-0484-4d38-4e09" name="Large Upgraded Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="00bb-6710-52c5-11b8" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="332d-4904-75ae-45ec" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="31.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f33b-faa3-3f5a-ce60" name="Large Infantry Battalion" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="6db8-222f-f22a-4920" name="Large Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">4</characteristic>
+                        <characteristic name="Special" typeId="Special ">Large</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="79e0-48ea-7a3a-3c97" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="7229-323e-f1a4-cd84" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="28.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ce0-080e-d354-2a5d" name="Infantry Brigade Commander" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dcd-80ef-948b-3b61" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8f-1e04-e7b2-3c5d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e745-8822-e272-1381" name="Staff Rating 7" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1402-829f-05b8-a745" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c60b-6e8f-6d0c-4dbc" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="98fd-ac87-c650-039b" name="Staff Rating 8" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e5-153a-9bdb-7bff" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d314-2ab9-0734-70e0" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="ac36-4f24-5529-a671" name="Division Commander" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="05f7-2d37-ff12-ad72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ed-0aef-d41c-55e8" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="884a-8b7a-53c4-8bbd" name="Commanders" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e418-ab4e-6502-12d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b439-3143-cb4b-53c3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="72aa-4ff9-5516-3847" name="Staff Rating 8" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b1-1b88-0965-d07e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5c09-9ec7-b5b9-a8d4" name="Division Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="949a-8843-ce19-5685" name="Joachim Murat, King of Naples" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="853a-a00f-7df8-31de" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="32f6-15dd-d545-534b" name="Joachim Murat, King of Naples" publicationId="f198-9405-5aea-89f1" page="118" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+2 Bonus Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="56ae-1da1-0969-8fbc" name="Well, are you goiung to let us be devoured by these people!" publicationId="f198-9405-5aea-89f1" page="118" hidden="false">
+                  <description>Once per game Murat can give a &apos;Follow Me&apos; order to an entire cavalry brigade.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="200.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1819-2985-d39f-75d5" name="Staff Rating 7" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e1-3263-1b1f-522c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dc39-c6e7-189e-147a" name="Division Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="0082-2a5b-e8e2-9fe1" name="Guard Infantry Brigade" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="05f7-2d37-ff12-ad72" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7333-1408-cd61-c2b5" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e9db-1ef5-92b4-3d63" name="Infantry Brigade Commander" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea1-8503-7d0a-d842" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c3-c775-badf-eed5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1fc8-488a-4a1a-52e4" name="Staff Rating 7" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14a5-fef5-b6e3-032d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3730-9298-ad18-3902" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="bb14-9426-22b8-4a3b" name="Staff Rating 8" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f2-5194-7edc-9959" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="49e5-ac8a-02c0-f3e6" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="55a6-81b2-9377-2512" name="Guard Line Infantry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8212-09df-fce4-ec49" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ca-d781-d4c3-06b8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9a59-72ab-8dcc-b9e9" name="Standard Battalion" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="3480-4559-6220-5441" name="Neapolitan Guard Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                    <characteristic name="Special" typeId="Special "/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c4bf-d65b-d46b-d53c" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="33.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e72d-2382-5d21-6c07" name="Upgraded Battalion" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="89e1-17c2-009d-15fe" name="Upgraded Neapolitan Guard Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                    <characteristic name="Special" typeId="Special "/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="36.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9875-741e-230d-6201" name="Attatched Troops" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9934-5620-be80-24c9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9075-8370-afce-cdee" name="Neapolitan Marine Battalion" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="5572-25ce-6ed3-136f" name="Neapolitan Marines" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                    <characteristic name="Special" typeId="Special ">Small</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4669-9165-774d-4f1e" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="803c-61ad-3afe-d47e" name="Upgraded Neapolitan Marine Battalion" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="7ea5-1e09-504b-21eb" name="Neapolitan Marines" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                    <characteristic name="Special" typeId="Special ">Small</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="fb09-b9cc-ee3f-38cd" name="Guard Cavalry Brigade" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f13b-030e-cff9-122b" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="38e2-5e79-1532-ee08" name="Cavalry Brigade Commander" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c877-9e98-daef-d72a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad5-da9a-9971-350e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="81c2-b93b-2014-ada3" name="Staff Rating 7" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ade2-3715-5c23-4b96" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4ebe-46d1-b31b-92d5" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f7b8-a863-fd16-4457" name="Staff Rating 8" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fca-ffb0-99b7-c182" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b477-b78f-5919-8c9d" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Bonus Attack</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9653-b019-81ba-9ce6" name="Cavalry Regiments" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5b-416a-7869-648c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb7-9bd0-4824-6fde" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6d9f-444b-4d3f-99bf" name="Standard Regiments" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="b11d-0faa-2aee-4a26" name="Neopolitan Guard Light Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="1773-8369-7602-252b" name="Neapolitan Light Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="2330-2382-9144-a99d" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="4247-2a64-1144-1bdc" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="21.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6f51-0869-b49b-795a" name="Neopolitan Guard Heavy Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="1c99-9f03-008d-9a9f" name="Neapolitan Heavy Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">8</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="98ab-ada6-ee02-e6e9" name="Heavy Cavalry D1" hidden="false" targetId="140b-c2d0-7dd8-f187" type="rule"/>
+                    <infoLink id="c42e-1918-91d6-6fcd" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                    <infoLink id="2552-a1d0-6860-a4fd" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="35.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="cbc5-ae0e-cde1-4de3" name="Upgraded Regiments" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="a43c-780b-ba2c-46c7" name="Small Neopolitan Guard Heavy Cavalry" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="6968-726c-37b9-e867" name="Small Neapolitan Heavy Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9829-505a-cabb-9875" name="Heavy Cavalry D1" hidden="false" targetId="140b-c2d0-7dd8-f187" type="rule"/>
+                    <infoLink id="67d3-a6f5-3a0f-8a29" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                    <infoLink id="1f3d-6d3d-0ef0-2c39" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="27.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b4c9-d01d-34d9-28b1" name="Small Neopolitan Guard Light Cavalry" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="8e9e-6089-85dd-1b7d" name="Small Neapolitan Light Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="e0d9-7876-f8a3-6680" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                    <infoLink id="63f5-c93c-edc9-3d0a" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="13.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f57b-b363-9791-9b08" name="Veteran Neopolitan Guard Heavy Cavalry" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="1405-036e-24d5-3e8f" name="Veteran Neapolitan Heavy Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">8</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="44.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cc0a-3b84-d2cb-c7ec" name="Veteran Neopolitan Light Guard Cavalry" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="fe4e-4e46-cda5-79c9" name="Neapolitan Light Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+                        <characteristic name="Special" typeId="Special "/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fbf1-0b8c-9da1-ad4b" name="Small Veteran Guard Heavy Cavalry" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="a833-eff1-5937-ddc7" name="Small Neapolitan Heavy Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="36.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fe15-7193-0f56-3971" name="Small Veteran Neopolitan Guard Light Cavalry" hidden="false" collective="false" import="true" type="unit">
+                  <profiles>
+                    <profile id="e097-4589-046e-377c" name="Small Neapolitan Light Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+                        <characteristic name="Special" typeId="Special ">Small</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="22.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5a30-fc56-4210-eacb" name="Attatched Cannon Battery" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28cf-af3b-215e-5b30" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e0ce-56d8-93a8-9ad4" name="Horse Artillery Battery" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5643-f6ae-4675-d17e" name="Neapolitan Horse Artllery" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery</characteristic>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3-2-1</characteristic>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+                    <characteristic name="Special" typeId="Special "/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="133d-a2f6-d492-9c27" name="Unreliable" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                <infoLink id="ec76-3b60-6658-fc9f" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="cd62-0d38-8eb9-681d" name="Horse Artillery Half Battery" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="14ea-2bae-3b54-f033" name="Neapolitan Horse Artllery Half-Battery" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery</characteristic>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2-1-1</characteristic>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+                    <characteristic name="Special" typeId="Special ">Small</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="92cb-d358-4623-6fbc" name="Unreliable" page="" hidden="false" targetId="feb3-ee9d-5836-85a3" type="rule"/>
+                <infoLink id="7ffc-fb8d-5e1d-9b10" name="Wavering" hidden="false" targetId="6b70-ac18-ff69-263c" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="4a74-94ed-1093-3ad2" name="Neapolitan Line Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+        <characteristic name="Special" typeId="Special "/>
+      </characteristics>
+    </profile>
+    <profile id="72c1-4f65-361b-02b3" name="Neapolitan Guard Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+        <characteristic name="Special" typeId="Special "/>
+      </characteristics>
+    </profile>
+    <profile id="ac94-69c2-aacc-73d7" name="Neapolitan Light Infantry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+        <characteristic name="Special" typeId="Special "/>
+      </characteristics>
+    </profile>
+    <profile id="e56d-e4f6-5aee-3828" name="Neapolitan Marines" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">4</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2</characteristic>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+        <characteristic name="Special" typeId="Special ">Small</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="52ba-2e9f-e6c0-b7c1" name="Neapolitan Light Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+        <characteristic name="Special" typeId="Special "/>
+      </characteristics>
+    </profile>
+    <profile id="b41f-ce36-56f6-3bd7" name="Neapolitan Heavy Guard Cavalry" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">8</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+        <characteristic name="Special" typeId="Special "/>
+      </characteristics>
+    </profile>
+    <profile id="dc8d-f946-2a9c-08cc" name="Neapolitan Horse Artllery" publicationId="f198-9405-5aea-89f1" page="185" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+      <characteristics>
+        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery</characteristic>
+        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3-2-1</characteristic>
+        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+        <characteristic name="Special" typeId="Special "/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
