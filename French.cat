@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3374-2659-9a34-30e2" name="French" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="44bf-5edb-0de1-57df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="256a-1b43-66d5-8389" name="French 1812" hidden="false"/>
+    <forceEntry id="037a-6fbf-8c74-50e1" name="French Peninsular War" hidden="false"/>
+    <forceEntry id="3761-2396-662d-e422" name="French 1815" hidden="false"/>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="cb78-af3d-36d0-4ae7" name="Division Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5831-3b93-eeed-e677" name="Division Commanders" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f6-0e9e-3941-2140" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f33a-03cb-eccb-475f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1b4a-6415-0ea9-9175" name="Staff Rating 9" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="90a4-f960-4d35-a9e4" name="Division Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="94e2-6542-fd5b-c5ad" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ddd-0cb2-efc9-0c1a" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="f70a-f9c6-ee90-4c9e" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="93d8-3c69-3e0e-7f3b" name="Staff Rating 8" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="3777-d356-0ed4-6715" name="Division Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="dcf6-9d2f-6f88-324a" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fbe-a3b8-62ee-35ce" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="627a-78dd-6200-1648" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c504-f955-df49-52cd" name="Staff Rating 7" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="8036-6d29-553d-1969" name="Division Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="933c-6c23-5fb7-bc3e" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9684-017b-368b-380d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="01b7-1d88-24f0-f938" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fd3-5d87-01e6-4cae" name="Marshal Davout" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="67aa-964c-f2ba-65f4" name="Marshal Davout" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+2 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1d46-0eed-9347-dbaa" name="Marshal Davout" hidden="false">
+                  <description>Command Range is 24 inches. If Davout gives a command to a Battalion, the Battalion&apos;s Brigade commander subtracts 2 from his command rolls next turn</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="e1c3-9ee1-0bfd-1b61" name="Decisive" hidden="false" targetId="8f6b-0413-f296-bc17" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5ee9-8059-f99b-85b0" name="Marshal Murat" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="0bbc-68ed-c60b-2cf7" name="Marshal Murat" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+2 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="eea7-f89a-ddd6-b3ad" name="Marshal Murat" hidden="false">
+                  <description>Once per game Murat can give a Follow Me! as a Brigade order, must include the Brigade Commander</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="fad9-b6a4-a297-9ce2" name="Aggresive" hidden="false" targetId="a367-94c0-2265-f81e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="200.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec47-45ec-3f35-9284" name="Count Compans" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="b57c-238c-6537-6812" name="Count Compans" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+2 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6cf9-1db0-f4e0-82a4" name="Aggresive" hidden="false" targetId="a367-94c0-2265-f81e" type="rule"/>
+                <infoLink id="0ed3-f11e-f080-d2df" name="Inspirational" hidden="false" targetId="1db5-196c-3bb0-a6f0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="125.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9aad-d866-8e6a-f6fd" name="General Louis Friant" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="cd9b-886f-dbe9-9169" name="General Friant" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+3 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a114-267d-f9d0-ff2e" name="Decisive" hidden="false" targetId="8f6b-0413-f296-bc17" type="rule"/>
+                <infoLink id="e2d5-b296-d694-2fbf" name="Head Strong" hidden="false" targetId="a374-0d6f-5f6a-0e1e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="175.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ef7-beed-fcf3-bb51" name="Count Dessaix" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="f6f5-e296-4128-a892" name="Count Dessaix" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="83c6-2bf4-2f01-6db2" name="Aggresive" hidden="false" targetId="a367-94c0-2265-f81e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f82a-129a-126e-adee" name="General Marchand" hidden="false" collective="false" import="true" type="unit">
+              <profiles>
+                <profile id="4cc0-636f-29e7-5c9e" name="General Marchand" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Division Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+2 Attacks</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="87dd-49ae-f69c-c576" name="Decisive" hidden="false" targetId="8f6b-0413-f296-bc17" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="125.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e37b-4712-0e16-28c9" name="Infantry Brigade 1812" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="256a-1b43-66d5-8389" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a85f-f4f0-3089-1e76" type="max"/>
+        <constraint field="selections" scope="256a-1b43-66d5-8389" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a4-182c-7d0e-e579" type="min"/>
+        <constraint field="selections" scope="037a-6fbf-8c74-50e1" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e74-1e3f-0b2b-f361" type="max"/>
+        <constraint field="selections" scope="3761-2396-662d-e422" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96f8-0db3-35f2-221e" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="04aa-db35-03e3-c031" name="Brigade Commander" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="213a-c9cb-be85-3e69" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0bb-5ab1-1f45-a942" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5e8c-4678-c80d-194d" name="Staff Rating 7" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6f51-b2ba-8ba5-9600" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="3bf6-27a3-ba8d-dcd1" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a146-e367-5346-b544" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="f9cf-6dc4-47ec-9029" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="095b-90c1-8a0b-5ea7" name="Staff Rating 8" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d138-3dd6-e790-1bb6" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="aad7-b105-0e53-4dbd" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85dc-1f29-742b-7a85" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="c22a-2698-7413-cbcf" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5c5e-9805-4ea7-e77d" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e872-18d0-39db-7363" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="a0ef-fe46-b1e6-3d27" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="097c-b083-7379-f83a" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="912b-4c0a-0ce3-164f" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1f94-f4af-ae9c-b10c" name="Infantry Regiments (No More than 10 Battalion Per Brigade)" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="68f9-3ae1-fd9f-c018" name="Line Infantry Regiments" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc5-ae82-8eec-abc0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a35d-922a-56dd-5d8a" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="adb1-fd03-c247-2ff5" name="French Line Infantry" hidden="false" collective="false" import="true" targetId="77c0-dc7b-7f09-de7d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1227-e549-c71d-db64" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb28-9ac4-1412-cdd3" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="279e-5c92-46c3-0eb9" name="Light Infantry Regiments" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0272-16bb-59a8-4ba3" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f003-bc02-3ad8-5c9f" name="French Light Infantry" hidden="false" collective="false" import="true" targetId="0b92-7528-fd11-4ed6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e8e-bd13-fbd1-e0e1" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc66-61fb-6c4a-3258" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c209-5933-3a15-c0c2" name="Foreign Regiment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b53d-a016-8cc7-d419" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5eee-70b8-1786-6f67" name="Iberian Regiment" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3667-18ed-3e10-6d20" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="467c-c7a6-c3b8-cc18" name="Portuguese/Spanish Infantry" hidden="false" collective="false" import="true" targetId="f335-4c7d-7289-631d" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ee-2567-29a4-a8ea" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d7b4-c9d1-8872-278c" name="Rheinbund Batallion" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f5-1a50-8cb4-7bc1" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5179-fd5a-196e-3458" name="Rheinbund Infantry" hidden="false" collective="false" import="true" targetId="930c-73f2-335d-8439" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0d4-a64d-74fd-60f5" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9b49-2aa9-4332-0660" name="Regimental Artillery " hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5dcc-760a-c34a-af0b" name="Regimental Section (1 per 2 battalions in the brigade) " hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="8b3c-929b-4634-4be8" name="Regimental Artillery Section" hidden="false" collective="false" import="true" targetId="ae5f-a75f-b6cf-0af6" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df49-181c-e0f6-fc1a" name="Regimental Battery (1 per Regiment of at least 3 Battalions)" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="a6b0-90e3-4e8e-ed68" name="Regimental Artillery Battery" hidden="false" collective="false" import="true" targetId="bf26-6026-9b6d-f9b6" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="725e-ccb2-4af3-7504" name="Light Cavalry Brigade 1812" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5a4e-db6a-2cce-191b" name="Brigade Commander" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c59b-df5c-d6d6-ea16" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e7-19ff-8140-4990" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="57fb-3790-a5e9-d8ec" name="Staff Rating 7" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7ec5-e6a6-e6f8-0e37" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="a1da-985a-7860-4a86" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ef8-344e-803d-6fc1" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="1c52-f799-6f3c-717e" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2808-74ba-0f10-4bf8" name="Staff Rating 8" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5114-e35b-2bb1-1d35" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="8f46-104e-7fc7-cd76" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bada-2082-3659-09c4" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="1603-8438-d5dd-91a0" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa6f-9cae-4c94-9a14" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="10bc-8999-c994-d68e" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                  <characteristics>
+                    <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                    <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                    <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                    <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                    <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                    <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                    <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="b909-88d2-2ffe-ef39" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e803-5422-1d22-d454" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="04e3-4d3c-f31d-b331" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                      <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="ccec-795b-fb0a-434a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="87be-4bed-cbfa-3e71" name="Cavalry Regiments" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c85f-97c0-6a74-46a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a9-bcdd-fdb9-70ae" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e468-8e69-0c36-d500" name="Hussars" hidden="false" collective="false" import="true" targetId="b960-d7ca-4786-155a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0a4-4706-b3c0-520f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6908-e2f0-e3c3-00cc" name="Lancers" hidden="false" collective="false" import="true" targetId="3a3e-d3a8-1b6f-4709" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b624-5524-e66f-9078" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0670-f2f5-36ad-20f1" name="Chasseurs a Cheval" hidden="false" collective="false" import="true" targetId="f766-bd98-f7be-fc90" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ffb-d6ab-029b-28b0" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="de78-fb45-0f36-8068" name="Polish Uhlan" hidden="false" collective="false" import="true" targetId="e197-4383-8650-1088" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1764-209e-947a-f64b" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e59e-f411-91bd-51eb" name="Wurttemberg Horse-Jager" hidden="false" collective="false" import="true" targetId="c2a5-3f63-2077-ce85" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc6-f5d8-93c0-3939" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="99b1-65fb-4ab4-4984" name="Bavarian Chevauleger" hidden="false" collective="false" import="true" targetId="42af-36c2-8e73-989d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b20f-3c99-910b-a083" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a34-6928-ef2a-cd4c" name="Divisional Artillery" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="de42-f445-9395-31db" name="Foot Artillery (1 per 6 Infantry Units)" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9db2-7f4f-1942-bc66" name="Foot Artillery Battery" hidden="false" collective="false" import="true" targetId="b8a9-12d1-6f63-3798" type="selectionEntry"/>
+            <entryLink id="192b-c6ac-9890-4a37" name="Half Foot Artillery Battery" hidden="false" collective="false" import="true" targetId="f5d0-125e-8c74-3397" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e712-4805-1347-e715" name="Horse Artillery (1 per 3 Cav units)" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="99cb-a0f7-a426-f8e6" name="Horse Artillery Battery" hidden="false" collective="false" import="true" targetId="aefc-fe04-d1d4-3560" type="selectionEntry"/>
+            <entryLink id="ea1f-bc49-bce1-49de" name="Half Horse-Artillery Battery" hidden="false" collective="false" import="true" targetId="9e64-5079-d651-cafa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="086c-1fe0-dd9c-c840" name="Corps and Army Support Brigades (only 1/2 of points can be Support)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="256a-1b43-66d5-8389" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05e-8031-8995-4776" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="eac8-01b7-111c-00b7" name="Heavy Cavalry Brigade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ec4-f272-0e72-ddd2" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="715a-afe4-fe09-d229" name="Cuirassier/Carabineer Brigade or Dragoon Brigade" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="266e-78b1-7797-7f63" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f319-d82a-a636-a697" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="78a1-c6c5-ed2e-0ea7" name="Cuirassier/Carabineer" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f58-449d-9f7f-b4e6" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6761-c4c3-1600-f0ac" name="Curassier/Carabiner" hidden="false" collective="false" import="true" targetId="1257-67f2-4604-ced2" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cea4-0dc9-be71-8388" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ee82-6175-4e9a-b514" name="Dragoon " hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7de4-8f4e-1e46-f3b9" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5b6c-0c60-c40f-3937" name="Dragoons" hidden="false" collective="false" import="true" targetId="c519-dcae-b3f7-d033" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef8a-02df-b265-f32b" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="4268-1564-772a-79fe" name="Polish Uhlan" hidden="false" collective="false" import="true" targetId="e197-4383-8650-1088" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca4-4813-a9f2-15ec" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="bc6f-5dd7-67d1-aae7" name="Brigade Commander" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e5d-500a-3f6c-847c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d6e-fdfd-60fb-d89e" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2575-da56-92d3-90ad" name="Staff Rating 7" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="2111-6f2b-a593-29cf" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                        <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="3a4f-fb4b-3797-0473" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a327-31ca-6e88-0d1f" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="41cd-1e8e-456b-ddf4" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                          <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="74bd-a361-47bd-650b" name="Staff Rating 8" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="1770-1f6c-1552-e9dc" name="Cavalry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                        <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="8353-0aca-00cb-7838" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf3-8014-1233-531a" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="3bd5-69b1-e27f-0279" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                          <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4fee-d764-39e4-cde4" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="3315-9dde-542c-4ff1" name="Cavlary Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Cavalry Commander</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                        <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="1a8e-fc62-c9fa-2513" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e4-7fd4-9e30-4122" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="2081-8db0-f9d8-fa3b" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                          <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="50.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8356-b604-dbab-5380" name="Artillery Brigade (if 12 Infantry Battalion are taken) " hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d4-5f15-cff9-27b4" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c314-f7ca-0164-73d3" name="Brigade Commander" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd95-326f-91c5-7a11" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69fb-751d-ed3b-9210" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e7b8-5974-a50c-9ffe" name="Staff Rating 7" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="084b-cfa2-b8c5-f5b6" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                        <characteristic name="Special" typeId="Special ">Staff Rating 7</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="2a44-4ac7-b358-64f7" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a46-5d86-e4f9-6448" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="fcd4-16c3-fbec-def5" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                          <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e0ae-f3ab-98dc-a415" name="Staff Rating 8" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="dc11-4d54-db5a-e7a5" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                        <characteristic name="Special" typeId="Special ">Staff Rating 8</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="77f4-99a4-ba6f-10c8" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271e-6f27-a2ce-5a2b" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="1c8b-f5b8-c186-2305" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                          <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="28ab-b9d5-762a-5913" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="9059-d8a3-23e7-13a6" name="Infantry Brigade Commander" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+                      <characteristics>
+                        <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Infantry Commander</characteristic>
+                        <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0"/>
+                        <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">+1</characteristic>
+                        <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+                        <characteristic name="Morale" typeId="f827-d6a5-06de-45fd"/>
+                        <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01"/>
+                        <characteristic name="Special" typeId="Special ">Staff Rating 9</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="dec6-474f-6472-56cc" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b0-dbef-045a-60b4" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="68f6-7815-1c4e-cc40" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+                          <description>When rolling personal qualities for commanders 
+1 = Low, 2-4 = normal, 5-6 = High</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="ccec-795b-fb0a-434a" value="50.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c041-4704-54a5-a268" name="Artillery Batteries" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baff-ae10-e66e-d667" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db35-703e-240a-bd7e" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="bd58-db0c-d383-7284" name="Foot Artillery Battery" hidden="false" collective="false" import="true" targetId="b8a9-12d1-6f63-3798" type="selectionEntry"/>
+                <entryLink id="6112-74ca-3f89-54fa" name="Foot Artillery Half-Battery" hidden="false" collective="false" import="true" targetId="f5d0-125e-8c74-3397" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a598-6e43-6826-c66e" name="Reserve Artillery" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3024-d917-e1fe-f3ff" name="Foot Artillery (up to 2 attatched to a brigade, 1 per 8 infantry battalions)" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="bf5c-657b-57b4-54fd" name="Foot Artillery Battery" hidden="false" collective="false" import="true" targetId="b8a9-12d1-6f63-3798" type="selectionEntry"/>
+                <entryLink id="dfdd-5287-e04d-2ad3" name="Foot Artillery Half-Battery" hidden="false" collective="false" import="true" targetId="f5d0-125e-8c74-3397" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f851-c941-0375-b43c" name="Horse Artillery (1 per 4 cavalry units) " hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="982e-705b-e0db-25ee" name="Horse Artillery Half-Battery" hidden="false" collective="false" import="true" targetId="9e64-5079-d651-cafa" type="selectionEntry"/>
+                <entryLink id="5acb-e304-e9f7-71a0" name="Horse Artillery Battery" hidden="false" collective="false" import="true" targetId="aefc-fe04-d1d4-3560" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d789-e093-36a0-9803" name="Heavy Artillery (1 per 9 Battalions, up to 2 attatched to an infantry brigade) " hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="1f9c-9d7d-d545-88c4" name="Half-Heavy Foot Battery" hidden="false" collective="false" import="true" targetId="8026-55f8-ce9a-65cf" type="selectionEntry"/>
+                <entryLink id="2392-ed43-3502-7836" name="Heavy Foot Battery" hidden="false" collective="false" import="true" targetId="5c5b-399a-55c9-b4c7" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="77c0-dc7b-7f09-de7d" name="French Line Infantry" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="807d-52cf-8895-8a45" name="French Line Infantry" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e593-b7b0-195b-e010" name="Pas de Charge" hidden="false" targetId="a881-5649-1654-0b1c" type="rule"/>
+        <infoLink id="7173-dd66-9f2f-5cbd" name="Must Form Square" hidden="false" targetId="e0fb-78eb-9d9a-56bd" type="rule"/>
+        <infoLink id="c06c-9cf9-22d0-3de4" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="38.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b92-7528-fd11-4ed6" name="French Light Infantry" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9907-3ca6-151d-4090" name="French Light Infantry" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0961-94a9-4f60-e63a" name="Pas de Charge" hidden="false" targetId="a881-5649-1654-0b1c" type="rule"/>
+        <infoLink id="c03b-dad8-3029-f775" name="Must Form Square" hidden="false" targetId="e0fb-78eb-9d9a-56bd" type="rule"/>
+        <infoLink id="4ecf-fcaf-0bf8-9695" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="4adb-3101-8e16-7128" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+        <infoLink id="f733-cfbf-13e7-defb" name="Sharp Shooters" hidden="false" targetId="830e-185a-fdd3-ced3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="486d-6622-907d-bd58" name="French Grenadiers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fe78-c579-eaa3-688b" name="French Grenadiers" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b684-5011-8be2-194c" name="Pas de Charge" hidden="false" targetId="a881-5649-1654-0b1c" type="rule"/>
+        <infoLink id="3b72-5a66-5775-a6c9" name="Must Form Square" hidden="false" targetId="e0fb-78eb-9d9a-56bd" type="rule"/>
+        <infoLink id="b649-7147-d663-2f1f" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="3843-87d6-d0dc-ef09" name="Elite 5+" hidden="false" targetId="ab1d-afb1-ed63-762c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f52a-fd06-2e60-f507" name="Voltigeurs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3304-871f-1486-c430" name="Voltigeurs" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c3fd-0fac-41cc-25a0" name="Pas de Charge" hidden="false" targetId="a881-5649-1654-0b1c" type="rule"/>
+        <infoLink id="e525-82b8-5c91-a578" name="Must Form Square" hidden="false" targetId="e0fb-78eb-9d9a-56bd" type="rule"/>
+        <infoLink id="b028-5c6c-d103-af72" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="4c37-1f0a-3919-27fb" name="Skirmish" hidden="false" targetId="3944-df12-b304-5f7e" type="rule"/>
+        <infoLink id="92a5-ccd6-a242-4737" name="Sharp Shooters" hidden="false" targetId="830e-185a-fdd3-ced3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="930c-73f2-335d-8439" name="Rheinbund Infantry" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f0f0-f1d3-3d31-7d8a" name="Rhinebund Infantry" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">5</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3c31-b0fb-3015-5609" name="Must Form Square" hidden="false" targetId="e0fb-78eb-9d9a-56bd" type="rule"/>
+        <infoLink id="74a2-5826-63c1-1d55" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f335-4c7d-7289-631d" name="Portuguese/Spanish Infantry" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9414-b0e7-fdf9-7c5a" name="Portuguese/Spanish Infantry" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Infantry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Musket</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec0d-bef9-53f4-d6dd" name="Must Form Square" hidden="false" targetId="e0fb-78eb-9d9a-56bd" type="rule"/>
+        <infoLink id="100a-4769-b6f4-8701" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1257-67f2-4604-ced2" name="Cuirassier/Carabiner" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e898-6749-b6d0-353a" name="Curassier/Carabiner" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">9</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">3</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b793-30d0-bde5-5d88" name="Reliable" hidden="false" targetId="0843-a3f2-bec4-ec4e" type="rule"/>
+        <infoLink id="65b1-039e-645f-30f8" name="Heavy Cavalry D3" hidden="false" targetId="0eb9-2559-a5fc-59f8" type="rule"/>
+        <infoLink id="2b11-a58e-5906-7a37" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a3e-d3a8-1b6f-4709" name="Lancers" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="af3c-f786-6c9f-0beb" name="Lancers" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Lance</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">7</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9811-0d81-d7bc-01a7" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="0a72-8403-2948-baf1" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+        <infoLink id="01ff-0928-f1fd-c91e" name="Lancer" hidden="false" targetId="773a-4ef7-3f06-00fa" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="48.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e197-4383-8650-1088" name="Polish Uhlan" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5d84-5566-7ad8-582d" name="Polish Uhlan" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Lance</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">5</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special ">Small</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c314-79d0-3ab0-b1f7" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+        <infoLink id="c1a9-af58-b5c0-aae4" name="Lancer" hidden="false" targetId="773a-4ef7-3f06-00fa" type="rule"/>
+        <infoLink id="4901-1a61-23be-31aa" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c519-dcae-b3f7-d033" name="Dragoons" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0196-97a6-9c03-05e3" name="Dragoons" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">8</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">3</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="999c-9fe2-163b-2f75" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="1768-dcf3-89e1-e490" name="Heavy Cavalry D1" hidden="false" targetId="140b-c2d0-7dd8-f187" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b960-d7ca-4786-155a" name="Hussars" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f6fd-8c6f-ac61-ce92" name="Hussars" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="414e-f224-b586-1c92" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="dc73-49dc-9e8e-cdcc" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2a5-3f63-2077-ce85" name="Wurttemberg Horse-Jager" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="837b-21b9-b6ff-77e7" name="Wurttemberg Horse-Jager" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c845-4cd6-5233-c259" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="4f7f-c2b6-7177-396a" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="42af-36c2-8e73-989d" name="Bavarian Chevauleger" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bf89-5cdb-ef38-75a5" name="Bavarian Chevauleger" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c748-3fcc-8a47-fb02" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="c9fb-48b4-1a92-b711" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f766-bd98-f7be-fc90" name="Chasseurs a Cheval" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f029-07c9-c631-6b75" name="Chasseurs a Cheval" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Cavalry</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Sabre</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">6</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06"/>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7082-7698-c463-7155" name="Mixed Formation" hidden="false" targetId="2a4b-ed5e-99e4-f49d" type="rule"/>
+        <infoLink id="ee69-4ee7-eee2-f884" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf26-6026-9b6d-f9b6" name="Regimental Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4931-9209-9cdc-2eb4" name="Regimental Artillery Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Battalion Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae5f-a75f-b6cf-0af6" name="Regimental Artillery Section" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9c46-f8ec-bfc0-4171" name="Regimental Artillery Section" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Battalion Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">1-1-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f5d0-125e-8c74-3397" name="Foot Artillery Half-Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7d1f-ba94-c6ea-7510" name="Half Foot Artillery Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2-1-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8a9-12d1-6f63-3798" name="Foot Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f5fe-9d4c-a5b6-a40b" name="Foot Artillery Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery </characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery </characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">2</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8026-55f8-ce9a-65cf" name="Half-Heavy Foot Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1b64-bff2-69db-966f" name="Half-Heavy Foot Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Heavy Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2-1-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c5b-399a-55c9-b4c7" name="Heavy Foot Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="01da-e08e-8805-e787" name="Heavy Foot Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Heavy Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e64-5079-d651-cafa" name="Horse Artillery Half-Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="663c-0b89-893b-df31" name="Half Horse-Artillery Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Horse Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">2-1-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2f46-0c47-8924-133f" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aefc-fe04-d1d4-3560" name="Horse Artillery Battery" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="df22-b635-ec6f-63c0" name="Horse-Artillery Battery" hidden="false" typeId="be32-3724-60de-ce83" typeName="Battalion">
+          <characteristics>
+            <characteristic name="Type" typeId="3265-66cb-72cb-9f88">Regular Horse Artillery</characteristic>
+            <characteristic name="Armament" typeId="cb98-1528-ab2b-f8a0">Smoothbore Artillery</characteristic>
+            <characteristic name="Hand-to-Hand" typeId="4237-258c-46ae-cf58">1</characteristic>
+            <characteristic name="Shooting" typeId="52b1-37c7-2065-ec06">3-2-1</characteristic>
+            <characteristic name="Morale" typeId="f827-d6a5-06de-45fd">4</characteristic>
+            <characteristic name="Stamina" typeId="35dd-f7a6-863f-4e01">1</characteristic>
+            <characteristic name="Special" typeId="Special "/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8909-8d20-d0fa-2fc0" name="Marauder" hidden="false" targetId="d85e-dd36-3a37-00fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="ccec-795b-fb0a-434a" value="22.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="ce6a-b79e-d843-a577" name="A Marshal&apos;s Baton in Every Knapsack" hidden="false">
+      <description>When rolling personal qualities for commanders 
+rolls of 5 and 6 are high. </description>
+    </rule>
+  </sharedRules>
+</catalogue>
